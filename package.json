@@ -1,0 +1,13 @@
+{
+  "name": "render-forward-proxy",
+  "version": "1.0.0",
+  "description": "Forward HTTP requests from Render to 193.149.164.168:1808",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
