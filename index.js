@@ -4,7 +4,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 const app = express();
 
 // Hamker *-*
-const TARGET_URL = 'http://193.149.164.168:1808';
+const TARGET_URL = 'http://193.149.164.240:1808';
 
 app.use('/', createProxyMiddleware({
   target: TARGET_URL,
